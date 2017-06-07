@@ -1,0 +1,82 @@
+/*Fix link underline*/
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+/* fix link color */
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* used for buttons in user managament for admin */ 
+.manageUserButton {
+	text-align: center;
+	width: 80px;
+    height: 23px;
+}
+	
+/* used for buttons in user managament for admin */ 
+.manageGroupButton {
+	text-align: center;
+	width: 130px;
+    height: 23px;
+}
+
+.hiddenButton {
+	visibility: hidden;
+}
+
+.filter {
+	width: 150px;
+}
+
+#filterTools div {
+	padding: 5px;
+}
+
+.list tr:nth-child(even) {
+	background-color: #f2f2f2;
+}
+
+.timereporting {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.timereporting td, .timereporting th { 
+	border: 1px solid black;
+}
+
+.timereporting input {
+
+	width: 74px;
+
+}
+
+.markup {
+background-color: lightblue;
+}
+/*
+.tdwithborders {
+	white-space: nowrap;
+	border-right: 1px solid black;
+}
+*/
